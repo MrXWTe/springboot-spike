@@ -28,7 +28,7 @@ public class UserService {
      * 测试事务
      * @return 事务是否成功
      */
-    //@Transactional
+    @Transactional
     public boolean tx(){
         User user1 = new User();
         user1.setId(4);
